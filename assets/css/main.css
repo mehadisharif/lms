@@ -1,20 +1,385 @@
 body{
 	font-family: "Open sans", Helvetica, sans-serif;
 }
+ul li{list-style: none;}
+
+/*
+font-family: 'Frank Ruhl Libre', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+
 
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
 
+#header .header-top{
+    min-height: 55px;
+		padding-top: 10px;
+}
+
+.header-top i {
+    color: #00bfa5;
+    padding-right: 5px;
+}
+
+.header-top ul li {
+    border-right: 2px solid #d9d9d9;color: #00bfa5;
+}
+
+.container-fluid{background: #00bfa5;}
+.header-bottom{height: 110px;}
+/*.header-bottom .col-md-4,.col-md-8{margin-top: 25px;}*/
+.header-bottom h1 a{color:#fff;font-weight: bold;}
+.header-bottom ul li{padding-top: 20px;}
+.header-bottom ul li a{color:#fff;}
+.header-bottom .active{color:#fff; border: 1px solid #fff;padding: 10px;}
+
+#slider{min-height: 900px;background: url('../img/bg1.jpg') center center;background-image: 100%;}
+#slider .container{position: absolute;}
+#slider .col-md-12{left: 20%;top: 300px;max-width: 50%;}
+#slider h2{color: #00bfa5;font-weight: bold;font-size: 55px;}
+#slider .btn {
+    background: #00bfa5 none repeat scroll 0 0;
+    border-radius: 0;
+    color: #fff;
+    font-family: raleway;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 85px;
+    padding: 15px 30px;
+    text-transform: uppercase;
+}
+
+
+#why{min-height: 700px;background-color: #00bfa5;color:#fff;}
+#why h2{margin-top: 90px;text-align: center;}
+#why p{text-align: center;max-width: 430px;margin:0 auto;margin-bottom: 100px;}
+#why .media-left{margin-right: 30px;}
+#why h4.media-heading {
+    padding-left: 15px;font-weight: bold;
+}
+.media-body {
+    padding-right: 30px;
+}
+.text-left.list-inline > li {
+    font-weight: 600;
+}
+.header-top {
+    margin-bottom: -16px;
+}
+.header-bottom .col-md-4 a {
+    font-family: "Poppins",sans-serif;
+    font-size: 60px;
+}
+
+.header-bottom .col-md-8 li a {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.header-bottom ul li {
+    margin-top: 22px;
+}
+#slider h2 {
+    font-family: "Frank Ruhl Libre",sans-serif;
+    font-size: 55px;
+    font-weight: bold;
+}
+#slider p {
+    font-family: roboto;
+    font-size: 21px;
+    margin-top: 41px;
+}
+#why h2 {
+    font-family: "Raleway",sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+}
+#interest .media-body > p {
+    font-family: raleway;
+    font-size: 14px;
+    font-weight: normal;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+#interest h2 {
+    color: #00bfa5;
+    font-family: raleway;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 100px;
+}
+#interest .text-left p {
+    font-family: raleway;
+    font-weight: 400;
+    margin-bottom: 70px;
+}
+#interest .media-body h4 {
+    color: #000;
+    font-family: raleway;
+    font-weight: bold;
+    padding-left: 13px;
+}
+.media-body > p {
+}
+#interest .col-md-6 {
+    margin-bottom: 50px;
+}
+#courses {
+    background: #fafafa none repeat scroll 0 0;
+    padding-top: 100px;
+}
+
+
+/*Class Section*/
+
+#courses h4 {
+    color: #00bfa5;
+    font-family: raleway;
+    font-size: 36px;
+    font-weight: bold;
+}
+#courses .text-left p {
+    font-family: raleway;
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 19px;
+}
+#courses .text-left {
+    width: 45%;
+}
+#courses .row img {
+    height: 100%;
+    width: 100%;
+}
+#courses .row {
+    margin-top: 53px;
+}
+#courses .row .courses-bottom .fa-folder-open {
+    margin-top: 36px;
+}
+.fa.fa-folder-open.text-left {
+}
+.courses-bottom .text-right {
+    color: #00bfa5;
+    font-family: raleway;
+    font-size: 23px;
+    font-weight: bold;
+    position: relative;
+    top: -23px;
+}
+.courses-bottom .text-left i {
+}
+.courses-bottom .text-left i {
+    color: #ed8000;
+}
+.fa.fa-star, .fa-star-o, .fa-star-half-full {
+    color: #ed8000;
+    font-size: 18px;
+}
+.courses-bottom > h3 {
+    color: #000;
+    font-family: raleway;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: -20px;
+}
+.courses-bottom > p {
+    color: #727244;
+    font-family: raleway;
+    font-size: 14px;
+    padding-top: 17px;
+}
+#courses button {
+    font-family: raleway;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 110px;
+    margin-top: 55px;
+    padding: 15px 30px;
+    background: #00bfa5;
+    color: #fff;
+}
+#class {
+    background: #00bfa5 none repeat scroll 0 0;
+    color: #fff;
+    font-family: raleway;
+    padding-top: 110px;
+}
+#class h5 {
+    font-family: raleway;
+    font-size: 20px;
+    font-weight: bold;
+}
+#class h3 {
+    font-family: raleway;
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+#class p {
+    margin-bottom: 70px;
+}
+#class button {
+    background: #fff none repeat scroll 0 0;
+    color: #00bfa5;
+    font-family: raleway;
+    font-weight: bold;
+    margin-bottom: 100px;
+    padding: 15px 30px;
+}
+iframe {
+    height: 280px;
+    width: 480px;
+}
+#class .text-center span {
+    margin-left: 200px;
+}
+#class i {
+    background: #fff none repeat scroll 0 0;
+    color: #00bfa5;
+    margin: 1px;
+    padding: 1px;
+    right: 28px;
+}
+#class .text-center {
+    left: 120px;
+    padding-left: 180px;
+}
+
+
+/*
+NEWS SECTION
+*/
 
 
 
+#news {
+    font-family: raleway;
+    padding-top: 100px;
+}
+#news h2 {
+    color: #00bfa5;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 80px;
+}
+#news .news_border {
+    box-shadow: 6px 4px #f2f2ff;
+    padding: 10px;
+}
+#news .news_border img {
+    width: 104%;
+}
+#news h6 {
+    font-size: 14px;
+    padding-left: 30px;
+    padding-top: 15px;
+}
+#news p {
+    font-size: 16px;
+    margin-bottom: 25px;
+    padding-left: 30px;
+}
+.news_border > a {
+    color: #a22631;
+    padding-left: 30px;
+}
+#news button {
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 100px;
+    margin-top: 60px;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    background: #00bfa5;
+    color: #fff;
+}
+
+/*
+Footer Section
+*/
 
 
 
+#footer {
+    background: url('../img/bg2.jpg') #00bfa5;
+    background-size: contain;
+    background-repeat: repeat-y;
+    color: #fff;
+    font-family: raleway;
+    padding-top: 100px;
+}
+.footer-top ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.footer-top input {
+    background: #00bfa5 none repeat scroll 0 0;
+    border: 1px solid #fff;
+    padding: 10px 15px;
+    width: 350px;
+}
+.footer-top .btn {
+    background: #fff none repeat scroll 0 0;
+    color: #00bfa5;
+    font-family: raleway;
+    height: 40px;
+    margin-left: 10px;
+    padding: 10px 15px;
+    text-transform: uppercase;
+}
+.social {
+    margin-top: 50px;
+}
+.social i {
+    font-size: 20px;
+    margin: 5px;
+}
+.footer-top {
+}
+.footer-top .row {
+    margin-bottom: 70px;
+}
+
+.footer-top h5 {
+    font-size: 20px;
+    font-weight: bold;
+}
+.footer-top p {
+}
+
+.footer-top p a {
+    color: #fff;
+}
+
+.footer-bottom li a {
+    color: #fff;
+    text-decoration: none;
+}
+hr {
+    box-sizing: content-box;
+    height: 6px;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+}
+
+.news_hr{
+    background: #00bfa5 none repeat scroll 0 0;
+    box-sizing: content-box;
+    height: 2px;
+    margin-bottom: 50px;
+    margin-top: -60px;
+    overflow: hidden;
+    text-align: center;
+    width: 10%;
+}
 
 
-
-
-
-
+button:hover{background: #00fcda;opacity: .7;transition: .9s;}
